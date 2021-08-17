@@ -1,3 +1,11 @@
+##### v0.0.2
+- Created Helper jwt_helper
+- Created Filter JWTAuthenticationFilter
+- Added Filter in Filter file
+- Created Controller Auth
+- Created Validation file UserRules
+- Added UserRules in App/Config/Validation.php
+- Created Controller Client
 ##### v0.0.1
 - Update README.md
 - Edited env example file
