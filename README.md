@@ -74,6 +74,32 @@ php spark db:seed ClientSeeder
 
 ## ℹ️ Info
 
+#### Api usage
+##### Register. POST multipart with name, email, password.
+http://localhost:8080/auth/register
+
+##### Login. POST multipart with email, password.
+http://localhost:8080/auth/register
+
+##### Send the Bearer token with the request
+
+##### Create new client. POST multipart with email and retainer_fee.
+http://localhost:8080/client
+
+##### Get all clients. Method GET.
+http://localhost:8080/client
+
+##### Get client by id. Method GET.
+http://localhost:8080/client/1
+
+##### Update client. POST multipart with name and retainer_fee.
+http://localhost:8080/client/1
+
+##### Delete client. Method DELETE
+http://localhost:8080/client/1
+
+
+
 #### JWT Secret Key
 
 Create your own JWT secret key and place it in the .env file in the JWT_SECRET_KEY variable

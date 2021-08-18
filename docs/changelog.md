@@ -1,3 +1,5 @@
+##### v0.0.3
+- Update README.md
 ##### v0.0.2
 - Created Helper jwt_helper
 - Created Filter JWTAuthenticationFilter
