@@ -1,3 +1,5 @@
+##### v0.0.4
+- Created frontend application
 ##### v0.0.3
 - Update README.md
 ##### v0.0.2
